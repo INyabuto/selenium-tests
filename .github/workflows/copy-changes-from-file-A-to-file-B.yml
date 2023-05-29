@@ -5,4 +5,4 @@ jobs:
   copy-files-changes:
     runs-on: ubuntu-latest
     steps:
-      - run: cp file_A.json file_B.json
+      - run: cp ../src/main/kotlin/config/file_A.json ../src/main/kotlin/config/file_B.json
