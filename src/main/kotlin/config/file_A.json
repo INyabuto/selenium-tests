@@ -1,0 +1,7 @@
+{
+  "0.Info": "DO Config",
+  "version": "1",
+
+  "countryCode": "DO",
+  "configType": "dataCapture"
+}

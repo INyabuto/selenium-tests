@@ -1,0 +1,8 @@
+name: copy-changes-from-file-A-to-file-B
+run-name: ${{ github.actor }} moved changes from file A to file B
+on: [ push ]
+jobs:
+  copy-files-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - run: cp file_A.json file_B.json
