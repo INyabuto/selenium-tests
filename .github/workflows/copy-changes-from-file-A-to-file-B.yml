@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: cp https://github.com/INyabuto/selenium-tests/blob/eb14f3336460473871e2ac840836466d51170fb4/src/main/kotlin/config/file_A.json https://github.com/INyabuto/selenium-tests/blob/eb14f3336460473871e2ac840836466d51170fb4/src/main/kotlin/config/file_B.json
+      - run: cp ../src/main/kotlin/config/file_A.json ../src/main/kotlin/config/file_B.json
+
