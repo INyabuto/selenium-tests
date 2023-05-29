@@ -5,4 +5,5 @@ jobs:
   copy-files-changes:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - run: cp ../src/main/kotlin/config/file_A.json ../src/main/kotlin/config/file_B.json
